@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Merry Christmas Khyatii</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="screen1" class="screen active">
+  <h2>For someone special</h2>
+  <div class="gift" onclick="nextScreen(2)">
+    🎁
+    <span>Tap me!</span>
+  </div>
+</div>
+
+<div id="screen2" class="screen">
+  <h2>This Christmas,<br>something special for you</h2>
+  <button onclick="nextScreen(3)">Open it</button>
+</div>
+
+<div id="screen3" class="screen">
+  <h2>Just for you</h2>
+  <p>I don’t need a gift, because…</p>
+
+  <div class="cards">
+    <div class="card">You</div>
+    <div class="card">are</div>
+    <div class="card">my</div>
+    <div class="card">cutest</div>
+    <div class="card">gift 🎁</div>
+  </div>
+
+  <button onclick="nextScreen(4)">Next</button>
+</div>
+
+<div id="screen4" class="screen">
+  <h1>Merry Christmas<br>Khyatii 🎄</h1>
+
+  <div class="message">
+    This Christmas, I just want you to know how special you are to me.<br><br>
+    You are not just a part of my life, you are the reason behind so many smiles
+    and little moments.
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
